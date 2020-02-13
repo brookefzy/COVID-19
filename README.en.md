@@ -1,5 +1,4 @@
-# This document was originally created by 
-COVID-19/2019-nCoV Time Series Infection Data Warehouse
+# This document was originally created by COVID-19/2019-nCoV Time Series Infection Data Warehouse
 
 [简体中文](README.md) | English
 
