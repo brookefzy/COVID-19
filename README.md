@@ -7,10 +7,10 @@ Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and inter
 total number of novel Coronavirus cases in Wuhan City, China. Imperial College London, 17.
 
 ## Current Progress:
-* <b>R0 option:</b>
-** Baseline model is using the parameter from (Li, J. 2020), this model assume the transmission rate, recovery rate are similar
-** R0 could be calculated through MAP process with Poisson Distribution (Wu, J. T. 2020)
-** Another way is to get dynamic beta (beta =R0/gamma gamma: recovery rate) see Wechat https://mp.weixin.qq.com/s/GoExay4zzZQcFL1T0f2OfA
+* <b>R0 option:</b><br>
+1. Baseline model is using the parameter from (Li, J. 2020), this model assume the transmission rate, recovery rate are similar<br>
+2. R0 could be calculated through MAP process with Poisson Distribution (Wu, J. T. 2020)<br>
+3. Another way is to get dynamic beta (beta =R0/gamma gamma: recovery rate) see Wechat https://mp.weixin.qq.com/s/GoExay4zzZQcFL1T0f2OfA<br>
 * Need transportation information to further push the model
 
 ## Detailed process is in the Jupyter Notebook
