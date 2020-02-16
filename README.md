@@ -7,6 +7,12 @@ Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and inter
 total number of novel Coronavirus cases in Wuhan City, China. Imperial College London, 17.
 
 ## Current Progress:
+Feb. 16. 2020
+* Prediction_JHK_SEIR.ipyb
+1. Update the data with JHK data
+2. Apply new parameters
+3. Simulating the inflow data(on going)
+
 * <b>R0 option:</b><br>
 1. Baseline model is using the parameter from (Li, J. 2020), this model assume the transmission rate, recovery rate are similar<br>
 2. R0 could be calculated through MAP process with Poisson Distribution (Wu, J. T. 2020)<br>
