@@ -7,6 +7,28 @@ Leung, G. M. (2020). Nowcasting and forecasting the potential domestic and inter
 total number of novel Coronavirus cases in Wuhan City, China. Imperial College London, 17.
 
 ## Current Progress:
+Feb. 18. 2020
+<b>Simulating the Epidemic Process with estimated flow between provinces.</b>
+Current Parameters: 
+/alpha: The rate at which an exposed person becomes infective.
+/beta: The parameter controlling how often a susceptible-infected contact results in a new exposure.
+/gamma:The rate an infected recovers and moves into the resistant phase.
+/R0:beta/gamma
+/Mobility Factor: 85% meaning 85% of the peak flow between governments
+
+/total population: 2018 census
+/flow matrix between cities: simulation
+
+
+
+<b>Next Steps:</b>
+1. Create Dashboard layout
+2. Change point csv to polygon file, represent the polygon with color gradient
+3. Compare the real update and the simulation data
+4. Highlight the key moment in this whole event
+
+
+
 Feb. 16. 2020
 * Prediction_JHK_SEIR.ipyb
 1. Update the data with JHK data
